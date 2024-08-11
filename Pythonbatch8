@@ -1,0 +1,128 @@
+# print("dont know what i am doing, however lets do something")
+
+# name = input("What is your good name \n   : ")
+# age = input("what is your age \n   : ")
+# gender = input("gender \n   : ")
+# address = input("Address \n   : ")
+
+# # print("Your name is : ", name, "\nand your age is : ",age , "\nyou are : ", gender , "\nyou stay in : ", address)
+# #----------------------------------------------------------------------------------------------------------------------
+# # print("*********************************************************************")
+# print("1) Who can ride bike -----------------")
+# # print("*********************************************************************")
+
+# # name = input("Please let me know your name \n: ")
+# age = int(input("also help me to know your age \n: "))
+# # secondname = input("What does your family cals you \n: ")
+# # address = input("WHere do you stay \n: ")
+
+# i = age
+# if (i>=1 and i<=17):
+#     print("You can ride cycle")
+# elif (i>=18 and i<=50):
+#     print("You can ride the SUPER bike")
+# elif (i>=50 and i<=70):
+#     print("You can ride the bike")
+# elif (i>=71 and i<=90):
+#     print("Time to leave Heaven")
+# else:
+#     print("Please put your age again")
+#-------------------------------------------------------------------------------------------------------------------------
+# num = (1, 2 , 3, 4, 5, 6, 7, 8, 9, 10)
+
+# for el in num:
+#     print(el)
+#     if(el == 8):
+#         print("number 8 found")
+#         break
+
+
+#-------------------------------------------------------------------------------------
+# n = int(input("Which table: "))
+
+# for i in range(1, 11):
+#     print("12 *", i, "=", n*i)
+
+# cities = ["pune", "delhi", "mumbai", "pimpri"]
+# hero = ["shakti", "man", "super", "step"]
+
+# # def print_len(list):
+# #     print(len(list))
+
+# def print_list(list):
+#     for item in list:
+#         print(item, end=" ")
+
+# print_list(hero)
+
+# n = 12
+# for i in range(11):
+#     print("12 *", i, "=", n*i)
+
+
+# n = 12
+# for i in range(211):
+#     print("12 *", i, "=", n*i)
+
+# def  greet():
+#     print("How r u ")
+#     print("come togther")
+# greet()
+
+
+# def add(a,b):
+#     print("put the numbers : ", a-b)
+# add(10,20)
+# print(add)
+
+# num = input("Give me your number : ")
+# num2 = input("Give me your number 2 : ")
+# operator = str("input(select +, -, *, / : ")
+
+# # def greet():
+# #     print("How r u all")
+# #     print("We will do additon with two numbers")
+# # greet()
+
+# def add(num,num2):
+#     print("addition : ", num+num2)
+# add(60,30)
+# print(add)
+
+
+def calculator():
+    num1=int(input("Enter the Number 1: "))
+    num2=int(input("Enter the Number 2: "))
+    select=str(input("Select +, -, *, / :"))
+if select== "+":
+    result = num1 + num2
+    print("Sum:", result)
+elif select == "-":
+    result = num1 - num2
+    print("Sub:", result)
+    return result
+
+elif selectOperation == "/":
+    result = firstNumber / secondNumber
+
+    print("Div:", result)
+
+    return result
+
+elif selectOperation == "*":
+
+    result = firstNumber * secondNumber
+
+    print("Mul:", result)
+
+    return result
+
+else:
+
+    print("Select from the operations list")
+
+    return None
+
+# Call the calculator function
+
+calculator()
