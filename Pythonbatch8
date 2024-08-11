@@ -91,10 +91,15 @@
 
 
 def calculator():
-    num1=int(input("Enter the Number 1: "))
-    num2=int(input("Enter the Number 2: "))
-    select=str(input("Select +, -, *, / :"))
-if select== "+":
+    num1= int(input("Enter the Number 1: "))
+    num2= int(input("Enter the Number 2: "))
+    select= str(input("Select +, -, *, / :"))
+for select == "+":
+
+
+
+
+if select == "+":
     result = num1 + num2
     print("Sum:", result)
 elif select == "-":
@@ -109,7 +114,7 @@ elif selectOperation == "/":
 
     return result
 
-elif selectOperation == "*":
+ elif selectOperation == "*":
 
     result = firstNumber * secondNumber
 
@@ -117,7 +122,7 @@ elif selectOperation == "*":
 
     return result
 
-else:
+ else:
 
     print("Select from the operations list")
 
@@ -125,4 +130,4 @@ else:
 
 # Call the calculator function
 
-calculator()
+ calculator()
